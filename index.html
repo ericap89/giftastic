@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="assets/app.js"></script>
+    <title>Giftastic HW</title>
+</head>
+<body>
+    <!--Header-->
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1>Gif Tastic</h1>
+    </div>
+</div>
+
+<div class="btn-container">
+    <div class="row">
+    <div class="col-md-4 offset-8 ">
+            <h3>Add gifs </h3>
+            <input class="form-control" type="text" placeholder="Search for gifs...">
+            <div class="input-group-append">
+                    <button class="btn btn-secondary" type="submit">Search</button>
+            </div>
+    </div>
+     </div>
+     <div class="row ">
+        <ul class="gif-btns col-md-6">
+            
+            <button class="btn btn-primary" data-sport="football">NFL</button>
+            <button class="btn btn-primary" data-sport="basketball">NBA</button>
+            <button class="btn btn-primary" data-sport="baseball">MLB</button>
+            <button class="btn btn-primary" data-sport="hockey">NHL</button>
+            <button class="btn btn-primary" data-sport="wrestling">WWE</button>
+            
+        
+        </ul>
+    </div>
+</div>
+
+<div id="gifs"></div>
+
+</body>
+</html>
